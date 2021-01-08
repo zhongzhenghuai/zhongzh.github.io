@@ -1,0 +1,103 @@
+#main{
+    width: 1300px;
+    min-height: 600px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.left{
+    width: 50%;
+    float: left;
+}
+.right{
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+    padding-left: 50px;
+}
+
+.right>p:nth-child(1){
+    font-size: 22px;
+    line-height: 34px;
+    margin-bottom: 30px;
+}
+.right>p:nth-child(2){
+    margin-bottom: 23px;
+}
+.right>p:nth-child(3){
+    display: block;
+}
+.right>p:nth-child(3)>span{
+    font-size: 20px;
+    color: #808080;
+}
+.right>p:nth-child(3)>i{
+    font-size: 15px;
+    color: #c11d1d;
+    margin-left: 20px;
+}
+.right>p:nth-child(3)>em{
+    font-size: 30px;
+    color: #c11d1d;
+    font-weight: bolder;
+}
+.right>p:nth-child(4){
+    width: 230px;
+    min-height: 182px;
+}
+.right>p:nth-child(4)>img{
+    float: left;
+    margin: 20px 0 20px -10px;
+}
+.right>p:nth-child(5)>span{
+    font-size: 20px;
+    color: #808080;
+}
+
+/* 表单元素 */
+.inp{
+    width: 55px;
+    height: 36px;
+    text-align: center;
+    border: none;
+    outline:medium;
+    float: left;
+}
+.btn-inp>button{
+    float: left;
+    width: 31px;
+    height: 36px;
+    background: #eeeeee;
+}
+.btn-inp{
+    margin-top: 46px;
+    border: none;
+    outline: medium;
+}
+#btn1{
+    border: none;
+    outline: medium;
+    cursor: pointer;
+}
+.btn2{
+    border: none;
+    outline: medium;
+    cursor: pointer;
+}
+.last-p{
+    width: 200px;
+    height: 64px;
+    background: #5a5a5a;
+    color: white;
+    font-size: 27px;
+    line-height: 64px;
+    text-align: center;
+    margin-top: 200px;
+    margin-right: 130px;
+    outline: medium;
+    cursor: pointer;
+    margin-left: -110px;
+}
+.last-p>a{
+    color: white;
+}

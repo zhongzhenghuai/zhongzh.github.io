@@ -1,0 +1,159 @@
+.container{
+    max-width: 1920px;
+    min-width: 1268px;
+}
+.logo{
+    margin-bottom: 33px;
+    padding: 8px{
+        top: 15px;
+    }
+    >a{
+        width: 160px;
+        display: block;
+        >img{
+            display: block;
+            width: 160px;
+            height: 50px;
+        }
+    }
+}
+.main{
+    height: 600px;
+    background: {
+        image:url('https://oss.casiostore.com.cn/advertisings/5f6bfedbb9128.jpg');
+        position: center center;
+    }
+    position: relative;
+}
+.login{
+    width: 440px;
+    height: 440px;
+    position: absolute;
+    top:82px;
+    right: 0;
+    background-color: #f9f9f9;
+    padding: 33px{
+        top: 31px;
+        bottom: 0;
+    }
+    >ul{
+        height: 50px;
+        display: block;
+        text-align: center;
+        font-size: 26px;
+        padding: 0px 16px;
+        color: #000;
+        cursor: pointer;
+        >li:nth-child(1){
+            display: block;
+            float: left;
+            text-align: left;
+            width: 170px;
+            position: relative;
+            &::after {
+                content: '';
+                width: 2px;
+                height: 26px;
+                background-color: #595757;
+                position: absolute;
+                top: 7px;
+                right: -26px;
+            }
+        }
+        >li:nth-child(2){
+            display: block;
+            float: left;
+            text-align: right;
+            width: 170px;
+            color: #005bab;
+        }
+    }
+}
+.form{
+    margin-top: 30px;
+
+}
+.form-group{
+    height: 47px;
+    margin-bottom: 30px;
+    position: relative;
+ }
+.d-phone{
+    display: block;
+    float: left;
+    width: 374px;
+    height: 47px;
+}
+.ico{
+    display: block;
+    float: left;
+    width: 40px;
+    height: 47px;
+    border: {
+        width:1px;
+        style:solid;
+        color: #e6e6e6;
+        top-left-radius: 50%;
+        bottom-left-radius: 50%;
+        right: none;
+    }
+    padding: {
+        top:2px;
+        left:12px;
+    }
+    background-color: #fff;
+}
+.ico-casio{
+    font-size: 28px;
+    color: #e6e6e6;
+}
+.form-put{
+    display: block;
+    float: left;
+    width: 334px;
+    height: 47px;
+    border: {
+        width: 1px;
+        style:solid;
+        color: #e6e6e6;
+        top-right-radius: 21px;
+        bottom-right-radius: 21px;
+        left: none;
+    }
+    padding: 6px 12px;
+    font-size: 16px;
+    font-family: inherit;
+}
+.prompt{
+    position: absolute;
+    bottom: -25px;
+    left: 129px;
+    font-size: 14px;
+    color: #a94442;
+    display: none;
+}
+.btn{
+    margin: 0 auto;
+    outline: none;
+    width: 374px;
+    height: 47px;
+    font-size: 18px;
+    letter-spacing: 30px;
+    text-indent: 30px;
+    background-color: #000;
+    color: #fff;
+    border: {
+        width: 0;
+        radius: 23px;
+    }
+}
+.reg{
+    display: block;
+    color: #000;
+    font-weight: bold;
+    font-size: 12px;
+    margin: {
+        top:20px;
+        left: 10px;
+    }
+}

@@ -1,0 +1,162 @@
+#big{
+    height: 800px;
+    background-color: #f4f4f4;
+    overflow: hidden;
+}
+.logo{
+    display: block;
+    width: 160px;
+    height: 50px;
+    margin: 70px auto;
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+}
+.main{
+    width: 550px;
+    height: 600px;
+    margin: 35px auto;
+    background-color: white;
+    overflow: hidden;
+}
+.panel-heading{
+    width: 550px;
+    height: 40px;
+    text-align: center;
+    font-size: 27px;
+    color: #005bab;
+    margin-top: 35px;
+}
+.form{
+    margin-top: 50px;
+    padding-left: 40px;
+    position: relative;
+}
+.form-group{
+   height: 42px;
+   margin-bottom: 30px;
+   position: relative;
+}
+.phone-label{
+    width: 112px;
+    height: 42px;
+    text-align: right;
+    line-height: 42px;
+    font-size: 17px;
+    color: #666666;
+    font-weight: bold;
+    display: block;
+    float: left;
+}
+.phone-label span{
+    font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", "微软雅黑", sans-serif;
+}
+.d-phone{
+    display: block;
+    float: left;
+    overflow: hidden;
+    width: 333px;
+}
+.ico{
+    display: block;
+    float: left;
+    width: 40px;
+    height: 42px;
+    border: 1px solid #e6e6e6;
+    border-left-width: 2px;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-right: none;
+    padding-top: 2px;
+    padding-left: 8px;
+}
+.ico-casio{
+    font-size: 24px;
+    color: #e6e6e6;
+}
+.form-put{
+    display: block;
+    float: left;
+    width: 293px;
+    height: 42px;
+    border: 1px solid #e6e6e6;
+    border-right-width: 2px;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-left: none;
+    padding: 6px 12px;
+    font-size: 14px;
+    font-family: inherit;
+}
+.prompt{
+    position: absolute;
+    bottom: -25px;
+    left: 129px;
+    font-size: 14px;
+    color: #a94442;
+    display: none;
+}
+.yanz{
+    width: 175px;
+}
+.yzm{
+    display: block;
+    float: left;
+    width: 105px;
+    height: 42px;
+    margin-left: 10px;
+    border-radius: 5px;
+    color: #3e3a39;
+    border: 1px solid #ccc;
+    background-color: #ccc;
+    border-color: #ccc;
+    outline: none;
+    cursor: pointer;
+}
+.zhuce{
+    display: block;
+    width: 352px;
+    height: 42px;
+    background-color: #000;
+    color: #fff;
+    border: 0;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    opacity:0.6;
+    margin: 60px auto; 
+}
+.login{
+    position: absolute;
+    display: block;
+    color: #005bab;
+    left: 245px;
+    bottom: -40px;
+    font-size: 12px;
+}
+.yanzhengma{
+    width: 200px;
+    height: 100px;
+    border: 1px solid #999;
+    background-color: white;
+    position: fixed;
+    top: 10px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    line-height: 100px;
+    margin: 0 auto;
+    display: none;
+}
+.yanzhengma>input{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}

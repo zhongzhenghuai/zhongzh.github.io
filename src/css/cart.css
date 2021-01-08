@@ -1,0 +1,118 @@
+.none{
+    width: 1160px;
+    height: 500px;
+    text-align: center;
+    line-height: 400px;
+    font-size: 30px;
+    color: #999;
+    text-indent: 150px;
+}
+.dabf{
+    min-height: 300px;
+}
+.progress{
+    width: 1130px;
+    margin-left: 70px;
+    margin-top: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+}
+.ul2-1{
+    display: none;
+}
+.ul3{
+    display: block;
+}
+.xq{
+    width: 1130px;
+    margin: 0 auto;
+    text-align: center;
+}
+.xq-top{
+    width: 1160px;
+    height: 50px;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+    line-height: 50px;
+    background-color: #fafafb;
+    border-top: 1px solid #ededed;
+    border-bottom: 1px solid #ededed;
+}
+.xq-top div{
+    float: left;
+    width: 160px;
+    height: 50px;
+}
+.xq-top>div:nth-child(1){
+    width: 94px;
+}
+.xq-top>div:nth-child(2){
+    width: 94px;
+}
+.xq-top>div:nth-child(3){
+    width: 330px;
+}
+.big-bottom{
+    width: 1160px;
+    min-height: 107px;
+    margin: 0 auto;
+}
+.xq-bottom{
+    width: 1160px;
+    height: 107px;
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: center;
+    line-height: 107px;
+}
+.xq-bottom div{
+    float: left;
+    width: 160px;
+    height: 107px;
+}
+.xq-bottom>div:nth-child(1){
+    width: 94px;
+}
+.xq-bottom>div:nth-child(2){
+    width: 94px;
+}
+.xq-bottom>div:nth-child(2) a{
+    display: block;
+    width: 71px;
+    height: 71px;
+    border: 1px solid #999;
+    margin: 25px auto;
+}
+.xq-bottom>div:nth-child(2) img{
+    display: block;
+    width: 66px;
+    height: 66px;
+    margin: 1px auto;
+}
+.xq-bottom>div:nth-child(3){
+    padding: 15px 10px 0 10px;
+    line-height: 20px;
+    width: 330px;
+}
+.xq-bottom>div:nth-child(5){
+    height: 50px;
+    line-height: 10px;
+    margin-top: 45px;
+}
+#btn1{
+    border: none;
+    outline: medium;
+    cursor: pointer;
+}
+.inp{
+    width: 20px;
+    border: none;
+    text-indent: 4px;
+}
+.btn2{
+    border: none;
+    outline: medium;
+    cursor: pointer;
+}
