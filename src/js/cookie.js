@@ -22,7 +22,7 @@ function removeCookie(key) {
         if (temp[0] == key) {
             var time1 = new Date()
             time1.setTime(time1.getTime() - 8 * 3600 * 1000 - 10000)
-            document.cookie = key + '=' + temp[1] + ';expires=' + time1
+            document.cookie = key + '=' + temp[1] + ';expires=' + time1+";path=/";
         }
     }
 }
