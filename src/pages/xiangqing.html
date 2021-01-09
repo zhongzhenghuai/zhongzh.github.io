@@ -353,7 +353,7 @@
     <div class="nav-right">
         <ul>
             <li>
-                <a href="./cart.html" class="nav-cart" target="_blank">
+                <a href="./cart.html" class="nav-cart">
                     <img src="https://statics6.casiostore.com.cn/publics/images/pc/helptool/float-shopping-cart.png"
                         alt=""><br>购<br>物<br>车<br>
                 </a>
@@ -398,7 +398,7 @@
                 <span>数量</span>
             <div class="btn-inp">
                 <button id="btn1">-</button>
-                <input type="text" name="" data-id="123456" value="1" class="inp">
+                <input type="text" data-num="" data-id="123456" value="1" class="inp">
                 <button class="btn2">+</button>
             </div>
             </p>
@@ -491,8 +491,9 @@
             }
 
         })
-        var a = 1
+
         $('#btn1').click(function () {
+            var a = $('.inp').val()
             if ($('.inp').val() <= 1) {
                 $('.inp').val(1)
             } else {
@@ -501,6 +502,7 @@
             }
         })
         $('.btn2').click(function () {
+            var a = $('.inp').val()
             ++a
             $('.inp').val(a)
         })
