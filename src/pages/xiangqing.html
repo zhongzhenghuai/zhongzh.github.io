@@ -398,7 +398,7 @@
                 <span>数量</span>
             <div class="btn-inp">
                 <button id="btn1">-</button>
-                <input type="text" data-num="" data-id="123456" value="1" class="inp">
+                <input type="text" data-num="" data-id="123456" value="55" class="inp">
                 <button class="btn2">+</button>
             </div>
             </p>
@@ -491,7 +491,10 @@
             }
 
         })
+        var a = $('.inp').val()
+        console.log(a)
         $('#btn1').click(function () {
+            console.log($('.inp').val())
             var a = $('.inp').val()
             if ($('.inp').val() <= 1) {
                 $('.inp').val(1)
@@ -501,6 +504,7 @@
             }
         })
         $('.btn2').click(function () {
+            console.log($('.inp').val())
             var a = $('.inp').val()
             ++a
             $('.inp').val(a)
